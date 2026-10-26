@@ -1,0 +1,13 @@
+{
+ "_note": "Targets the Secretary app measures against: sleep a night, the time you aim to be in bed by, weekly hours for exercise and social time, and the awake window used to find free slots. Change them by telling the bot (\"aim for 8 hours of sleep\"), or edit and run `python3 secretary/sync.py push`.",
+ "sleep_h_per_night": 7.5,
+ "bed_by": "23:30",
+ "weekly_h": {
+  "exercise": 4,
+  "social": 4
+ },
+ "awake_window": [
+  "08:00",
+  "22:30"
+ ]
+}

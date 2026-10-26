@@ -1,0 +1,34 @@
+# Cloudflare Worker for the health app (the health bot's Mini App). deploy.sh
+# fills in the KV id, the timezone and the secrets (BOT_TOKEN, OWNER_ID) at deploy
+# time; nothing secret or account-specific lives here.
+name = "health-app"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+workers_dev = true
+
+# The page, scripts, styles, exercise library and photos. The Worker runs first
+# so every response gets the security headers.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+# The bot's snapshot, the workout in progress, and the queue for the bot.
+[[kv_namespaces]]
+binding = "HEALTH"
+id = "KV_NAMESPACE_ID"
+
+# No request logs: initData and health data never reach a log.
+[observability]
+enabled = false
+
+# Your timezone (IANA name, e.g. "Europe/London"): deploy.sh sets it from the
+# repo's settings.json. The Worker uses it for "today" in Oura pulls.
+[vars]
+TIMEZONE = "Asia/Singapore"
+
+# Oura (optional): pull the last few days every three hours (the ring syncs when
+# the Oura app opens, so a later run catches a late sync). Does nothing until Oura
+# is connected.
+[triggers]
+crons = ["15 */3 * * *"]

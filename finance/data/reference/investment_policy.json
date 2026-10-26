@@ -1,0 +1,27 @@
+{
+  "_comment": "Your own investment rules, checked by `finance policy` against what you hold and by `finance addcheck` before a buy. Every rule is optional and none is set: fill in only what you want to hold yourself to (or ask the money bot to). Keys starting with _ are notes and are ignored.",
+  "applies_to_ownership": ["SELF"],
+  "etf": {},
+  "restricted_single_names": [],
+  "locked": [],
+  "averaging_down": {"warn_below_cost": 0.03},
+  "_example": {
+    "_what": "Copy any of these into the keys above to turn a rule on.",
+    "etf": {
+      "_what": "Diversification for equity ETFs: at least min_holdings names and no single issuer above max_single_issuer_weight (a fraction of fund assets). Fund facts go in etf_facts.csv with an as_of date and a source; facts older than facts_max_age_days are flagged.",
+      "min_holdings": 30,
+      "max_single_issuer_weight": 0.20,
+      "facts_max_age_days": 120,
+      "applies_to_asset_classes": ["equity"],
+      "headroom_weight": 0.03,
+      "headroom_holdings": 5
+    },
+    "restricted_single_names": [
+      {"name": "Example Corp", "instrument_ids": ["EXMP"], "reason": "My employer bars me from holding it directly."}
+    ],
+    "locked": [
+      {"instrument_id": "EXMP2", "reason": "In a lock-up until next year: report it, never trade it."}
+    ],
+    "averaging_down": {"_what": "addcheck flags a buy of a single name this far below your average cost.", "warn_below_cost": 0.03}
+  }
+}

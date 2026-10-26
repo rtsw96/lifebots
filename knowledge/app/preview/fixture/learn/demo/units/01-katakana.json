@@ -1,0 +1,114 @@
+{
+ "id": "demo-01",
+ "title": "Katakana: ア to コ",
+ "level": "Beginner",
+ "goal": "Read ten katakana.",
+ "lessons": [
+  {
+   "id": "demo-01-1",
+   "title": "ア行",
+   "cards": [
+    "demo-k-a",
+    "demo-k-i",
+    "demo-k-u",
+    "demo-k-e",
+    "demo-k-o"
+   ]
+  },
+  {
+   "id": "demo-01-2",
+   "title": "カ行",
+   "cards": [
+    "demo-k-ka",
+    "demo-k-ki",
+    "demo-k-ku",
+    "demo-k-ke",
+    "demo-k-ko"
+   ]
+  },
+  {
+   "id": "demo-01-3",
+   "title": "Checkpoint",
+   "checkpoint": true,
+   "cards": []
+  }
+ ],
+ "cards": [
+  {
+   "id": "demo-k-a",
+   "kind": "kana",
+   "char": "ア",
+   "romaji": "a",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-i",
+   "kind": "kana",
+   "char": "イ",
+   "romaji": "i",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-u",
+   "kind": "kana",
+   "char": "ウ",
+   "romaji": "u",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-e",
+   "kind": "kana",
+   "char": "エ",
+   "romaji": "e",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-o",
+   "kind": "kana",
+   "char": "オ",
+   "romaji": "o",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-ka",
+   "kind": "kana",
+   "char": "カ",
+   "romaji": "ka",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-ki",
+   "kind": "kana",
+   "char": "キ",
+   "romaji": "ki",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-ku",
+   "kind": "kana",
+   "char": "ク",
+   "romaji": "ku",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-ke",
+   "kind": "kana",
+   "char": "ケ",
+   "romaji": "ke",
+   "script": "katakana"
+  },
+  {
+   "id": "demo-k-ko",
+   "kind": "kana",
+   "char": "コ",
+   "romaji": "ko",
+   "script": "katakana"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Katakana (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Katakana"
+  }
+ ]
+}

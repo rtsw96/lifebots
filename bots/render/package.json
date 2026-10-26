@@ -1,0 +1,8 @@
+{
+  "name": "lifebots-render",
+  "private": true,
+  "description": "The pinned Playwright that bots/render.sh uses. Matches the browser build preinstalled in the container (PLAYWRIGHT_BROWSERS_PATH); bump both together.",
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

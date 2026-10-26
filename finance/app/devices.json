@@ -1,0 +1,4 @@
+{
+ "_note": "Approved device public keys (not secret). Snapshots are sealed only for these.",
+ "devices": []
+}

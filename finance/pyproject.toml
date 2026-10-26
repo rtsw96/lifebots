@@ -1,0 +1,16 @@
+[project]
+name = "finance"
+version = "0.1.0"
+description = "Personal net worth, holdings and spending tracker, reporting in your home currency"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+finance = "finance.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

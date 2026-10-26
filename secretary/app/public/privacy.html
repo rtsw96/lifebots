@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Secretary · Privacy</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<main>
+<h1>Secretary: privacy</h1>
+<p class="sub">A personal app with one user, its owner: the person who set up this copy.</p>
+
+<h2>What it is</h2>
+<p>Secretary is a private Telegram Mini App that shows its owner's own calendar, time and expense claims. It only answers to the owner's Telegram account. Nobody else can sign in or see anything.</p>
+
+<h2>What it reads from Google</h2>
+<ul>
+<li>With the owner's permission (Google's <code>calendar.events</code> scope), it reads events from the owner's Google Calendar and can add events to it.</li>
+<li>It keeps only each event's title, start and end time, a short location, and its Google link. It does not read or keep descriptions, guest lists, meeting links or passcodes.</li>
+<li>When the owner asks, it writes a description (such as an agenda, meeting ID or passcode) and a location into events it creates or edits. These go straight to Google Calendar and are not kept by the app.</li>
+<li>It edits, moves or deletes only events it created itself. It never adds guests.</li>
+</ul>
+
+<h2>Where data is kept</h2>
+<p>In the app's private Cloudflare storage, readable only by the owner's account. Expense receipts sent to the owner's bot are kept there too, until 60 days after the claim is paid.</p>
+
+<h2>Sharing</h2>
+<p>None. Data from Google is not sold, shared, or used for advertising or to train models, and is used only to show the owner their own calendar and time. Use of Google user data follows the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Removing access</h2>
+<p>Remove "Secretary" at <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>. The app's disconnect call deletes the stored calendar copy and the sign-in tokens.</p>
+
+<h2>Contact</h2>
+<p>This copy is run by its owner for themselves alone. Questions about it go to that person.</p>
+</main>
+</body>
+</html>

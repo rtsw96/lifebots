@@ -1,0 +1,23 @@
+{
+  "_about": "Meal ideas the health app suggests from, picked by what's left of the day's targets (calories, protein, sat fat, veg). Values are rough estimates for typical servings (see reference_sg.md); real plates vary by 20-30%. meals: when it fits (breakfast, lunch, dinner, snack). Ask Claude to replace them with ideas that suit your diet and where you eat.",
+  "items": [
+    {"name": "Sliced fish soup (clear, no milk, no rice) + a side of greens", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 330, "protein_g": 34, "carbs_g": 14, "fat_g": 11, "sat_fat_g": 3, "fibre_g": 3, "veg": 1.5},
+    {"name": "Yong tau foo in clear soup: tofu, fish paste and greens, no noodles", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 330, "protein_g": 22, "carbs_g": 25, "fat_g": 14, "sat_fat_g": 4, "fibre_g": 4, "veg": 1.5},
+    {"name": "Economy rice, no rice: steamed fish + 2 veg", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 420, "protein_g": 32, "carbs_g": 20, "fat_g": 22, "sat_fat_g": 5, "fibre_g": 5, "veg": 2},
+    {"name": "Chicken rice, no skin, half rice + a plate of kailan", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 480, "protein_g": 32, "carbs_g": 45, "fat_g": 15, "sat_fat_g": 4, "fibre_g": 3, "veg": 1},
+    {"name": "Thunder tea rice (lei cha), half the rice", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 450, "protein_g": 18, "carbs_g": 55, "fat_g": 16, "sat_fat_g": 3, "fibre_g": 8, "veg": 3},
+    {"name": "Chicken satay, 10 sticks, no ketupat + cucumber and onion", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 400, "protein_g": 32, "carbs_g": 15, "fat_g": 22, "sat_fat_g": 6, "fibre_g": 2, "veg": 0.5},
+    {"name": "Fishball noodle soup with extra fishballs and greens", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 420, "protein_g": 26, "carbs_g": 55, "fat_g": 9, "sat_fat_g": 2, "fibre_g": 3, "veg": 1},
+    {"name": "Ban mian soup, half noodles, extra greens and egg", "where": "hawker", "meals": ["lunch", "dinner"], "kcal": 430, "protein_g": 25, "carbs_g": 45, "fat_g": 15, "sat_fat_g": 4, "fibre_g": 4, "veg": 1.5},
+    {"name": "Sashimi (10 slices, tuna and salmon) + seaweed salad", "where": "restaurant", "meals": ["lunch", "dinner"], "kcal": 380, "protein_g": 36, "carbs_g": 8, "fat_g": 20, "sat_fat_g": 4, "fibre_g": 2, "veg": 1},
+    {"name": "Grilled chicken breast 150 g + big salad, olive-oil dressing", "where": "home", "meals": ["lunch", "dinner"], "kcal": 420, "protein_g": 48, "carbs_g": 10, "fat_g": 20, "sat_fat_g": 3.5, "fibre_g": 4, "veg": 2},
+    {"name": "Salmon 120 g + stir-fried greens", "where": "home", "meals": ["lunch", "dinner"], "kcal": 420, "protein_g": 28, "carbs_g": 8, "fat_g": 28, "sat_fat_g": 5, "fibre_g": 3, "veg": 1.5},
+    {"name": "Tau kwa, egg and kailan stir-fry", "where": "home", "meals": ["lunch", "dinner"], "kcal": 380, "protein_g": 28, "carbs_g": 12, "fat_g": 24, "sat_fat_g": 4, "fibre_g": 4, "veg": 2},
+    {"name": "2 eggs + 2 slices wholemeal toast, no butter + tomato", "where": "home", "meals": ["breakfast"], "kcal": 380, "protein_g": 22, "carbs_g": 30, "fat_g": 17, "sat_fat_g": 5, "fibre_g": 5, "veg": 0.5},
+    {"name": "Greek yoghurt 170 g + 1 scoop whey + berries", "where": "home", "meals": ["breakfast", "snack"], "kcal": 310, "protein_g": 42, "carbs_g": 20, "fat_g": 5, "sat_fat_g": 3, "fibre_g": 2, "veg": 0, "fruit": 1},
+    {"name": "Whey shake with water + an apple", "where": "anywhere", "meals": ["snack", "breakfast"], "kcal": 210, "protein_g": 25, "carbs_g": 27, "fat_g": 1, "sat_fat_g": 0.4, "fibre_g": 4, "veg": 0, "fruit": 1},
+    {"name": "Edamame, 1 cup", "where": "convenience", "meals": ["snack"], "kcal": 190, "protein_g": 17, "carbs_g": 14, "fat_g": 8, "sat_fat_g": 1, "fibre_g": 8, "veg": 1},
+    {"name": "Mixed nuts, 30 g", "where": "anywhere", "meals": ["snack"], "kcal": 180, "protein_g": 5, "carbs_g": 6, "fat_g": 16, "sat_fat_g": 2, "fibre_g": 3, "veg": 0},
+    {"name": "Hard-boiled eggs x2 + a pack of cut fruit", "where": "convenience", "meals": ["snack", "breakfast"], "kcal": 220, "protein_g": 13, "carbs_g": 18, "fat_g": 10, "sat_fat_g": 3.2, "fibre_g": 2, "veg": 0, "fruit": 1}
+  ]
+}

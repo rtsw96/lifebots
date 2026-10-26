@@ -1,0 +1,41 @@
+{
+ "_about": "Your health settings. The health bot fills these in the first time you use it (it asks you a few questions); until then these neutral defaults apply. Change them any time by asking the bot or Claude, e.g. \"make my protein target 120 g\". They are targets to aim at, not medical advice.",
+ "onboarded": false,
+ "goal": "maintain",
+ "diet": "",
+ "targets": {
+  "kcal": [
+   1800,
+   2200
+  ],
+  "protein_g": [
+   90,
+   130
+  ],
+  "carbs_g": [
+   180,
+   260
+  ],
+  "fat_g": [
+   60,
+   85
+  ],
+  "sat_fat_g_max": 20,
+  "fibre_g_min": 30,
+  "veg_servings": [
+   3,
+   5
+  ],
+  "fruit_servings_min": 2
+ },
+ "water_ml": 2000,
+ "steps": [
+  8000,
+  12000
+ ],
+ "sleep_h": 7.5,
+ "weight_goal_kg": null,
+ "strength_days_per_week": 3,
+ "cardio_per_week": 1,
+ "debrief_at": "21:00"
+}

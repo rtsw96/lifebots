@@ -1,0 +1,11 @@
+# Receipts live in ~/.secretarybot/inbox and the app's private storage, never here
+bot/**/*.jpg
+bot/**/*.jpeg
+bot/**/*.png
+bot/**/*.pdf
+bot/**/*.heic
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.pdf
+data/**/*.heic

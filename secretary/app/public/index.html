@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#2f2a5e">
+<title>Secretary</title>
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-sc-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="app.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js" type="module"></script>
+</head>
+<body>
+<header class="top">
+  <span class="logo" aria-hidden="true"><span data-icon="clock"></span></span>
+  <div class="ident">
+    <h1>Secretary</h1>
+    <p id="sub" class="sub"></p>
+  </div>
+</header>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Sections" hidden>
+  <button type="button" role="tab" data-tab="today" aria-controls="view">Today</button>
+  <button type="button" role="tab" data-tab="week" aria-controls="view">Week</button>
+  <button type="button" role="tab" data-tab="trends" aria-controls="view">Trends</button>
+  <button type="button" role="tab" data-tab="plan" aria-controls="view">Plan</button>
+  <button type="button" role="tab" data-tab="claims" aria-controls="view">Claims</button>
+</nav>
+<main id="view" role="tabpanel"><p class="status" id="status">Loading…</p></main>
+<footer id="foot" hidden>
+  <p id="asof"></p>
+  <p>Read live from Google Calendar (titles and times only). Sleep and workouts come from the health bot, if you use it; claims from receipts sent to the bot.</p>
+  <button type="button" id="refresh" class="linkbtn">Re-read the calendar</button>
+</footer>
+<div id="toast" class="toast" role="status" hidden></div>
+<div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <div class="sheet-card">
+    <button type="button" class="sheet-x" id="sheet-x" aria-label="Close"></button>
+    <div id="sheet-body"></div>
+  </div>
+</div>
+</body>
+</html>

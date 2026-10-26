@@ -1,0 +1,18 @@
+{
+ "_note": "How calendar events count in the Secretary app. A starting template: make it yours. Rules are tried top to bottom on each event's title and location (case-insensitive regular expressions); the first match wins, and anything unmatched counts as the default. The kinds are fixed: work, social, exercise, travel, health, learning, fun, errands, personal. To add your own words (your company's name, your team's meetings, your gym or club), tell the secretary bot, e.g. 'count anything with Acme in it as work', or edit a 'match' here (words separated by |, \\b marks a word edge) and run `python3 secretary/sync.py push`. Sleep and workouts come from the health bot's logs when it is installed, not from here.",
+ "rules": [
+  {"cat": "travel", "match": "^[A-Z][A-Z0-9]\\d{2,4}\\b|\\bflight\\b|\\bairport\\b|\\btrain to\\b|^away\\b|→"},
+  {"cat": "work", "match": "\\bmeeting\\b|\\bcall\\b|stand-?up|\\b1:1\\b|one-on-one|interview|\\breview\\b|presentation|\\bdemo\\b|conference|webinar|seminar|offsite|\\bclient\\b|\\bwork\\b|^office$"},
+  {"cat": "health", "match": "doctor|dentist|dental|clinic|physio|therap|screening|blood test|hospital|vaccin|check-?up"},
+  {"cat": "learning", "match": "\\bclass\\b|lesson|course|lecture|tutor|study|exam|workshop"},
+  {"cat": "fun", "match": "concert|movie|cinema|festival|exhibition|\\bshow\\b|musical|\\bgig\\b|museum|\\bmatch\\b|theatre|theater"},
+  {"cat": "social", "match": "lunch|dinner|drinks|brunch|breakfast with|coffee|housewarming|wedding|reunion|party|birthday|catch ?up|bbq|gathering|celebration"},
+  {"cat": "exercise", "match": "\\bgym\\b|\\brun\\b|yoga|pilates|swim|tennis|climb|cycle|spin class|workout|training session|football|badminton"},
+  {"cat": "errands", "match": "pay |bills?\\b|appointment|renew|collect|pick ?up|pickup|delivery|haircut|viewing|\\bbank\\b|groceries"}
+ ],
+ "default": "personal",
+ "labels": {
+  "sleep": "Sleep", "work": "Work", "social": "Social", "exercise": "Exercise", "travel": "Travel", "health": "Health",
+  "learning": "Learning", "fun": "Fun", "errands": "Errands", "personal": "Personal", "free": "Unplanned"
+ }
+}

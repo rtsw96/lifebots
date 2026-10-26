@@ -1,0 +1,86 @@
+{
+ "id": "ideas-01",
+ "title": "Why the seasons change",
+ "level": "Foundations",
+ "goal": "Explain the seasons in one sentence.",
+ "lessons": [
+  {
+   "id": "ideas-01-1",
+   "title": "Tilt, not distance",
+   "cards": [
+    "ideas-c-tilt",
+    "ideas-c-daylight"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "ideas-c-tilt",
+   "kind": "concept",
+   "title": "Seasons come from Earth's tilt, not its distance from the Sun",
+   "explain": "Why is it summer in one half of the world while it is winter in the other? Earth's axis is tilted, so for part of the year one half leans towards the Sun and gets more direct light.",
+   "questions": [
+    {
+     "type": "tf",
+     "prompt": "Earth is much closer to the Sun in summer, and that causes summer.",
+     "answer": false,
+     "explain": "The tilt causes the seasons; the distance changes only a little."
+    },
+    {
+     "type": "mcq",
+     "prompt": "When it is summer in the northern half of the world, the southern half has…",
+     "options": [
+      "winter",
+      "summer too",
+      "no seasons"
+     ],
+     "answer": 0,
+     "explain": "The halves lean towards the Sun at opposite times of year."
+    }
+   ],
+   "sources": [
+    {
+     "title": "NASA Space Place: What causes the seasons?",
+     "url": "https://spaceplace.nasa.gov/seasons/"
+    }
+   ]
+  },
+  {
+   "id": "ideas-c-daylight",
+   "kind": "concept",
+   "title": "Summer days are longer",
+   "explain": "Why are summer evenings light for longer? The half of Earth leaning towards the Sun spends more of each turn in daylight.",
+   "questions": [
+    {
+     "type": "tf",
+     "prompt": "In summer, days are longer than nights where you live (away from the equator).",
+     "answer": true,
+     "explain": "More of each day is spent facing the Sun."
+    },
+    {
+     "type": "mcq",
+     "prompt": "Longer days in summer come from…",
+     "options": [
+      "the tilt",
+      "a hotter Sun",
+      "the Moon"
+     ],
+     "answer": 0,
+     "explain": "The tilt sets how long each place faces the Sun."
+    }
+   ],
+   "sources": [
+    {
+     "title": "NASA Space Place: What causes the seasons?",
+     "url": "https://spaceplace.nasa.gov/seasons/"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "NASA Space Place: What causes the seasons?",
+   "url": "https://spaceplace.nasa.gov/seasons/"
+  }
+ ]
+}

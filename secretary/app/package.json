@@ -1,0 +1,9 @@
+{
+  "name": "secretary-app",
+  "private": true,
+  "type": "module",
+  "description": "Telegram Mini App for the secretary bot: Google Calendar plus sleep and workouts, as time tracking (Cloudflare Worker). No runtime dependencies.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

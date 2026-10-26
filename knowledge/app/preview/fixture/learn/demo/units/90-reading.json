@@ -1,0 +1,72 @@
+{
+ "id": "demo-90",
+ "title": "Reading katakana words",
+ "level": "Beginner",
+ "goal": "Read words without furigana.",
+ "strand": "reading",
+ "strand_label": "Reading",
+ "strand_about": "Kana only, no furigana: read it, then answer. You hear it after.",
+ "lessons": [
+  {
+   "id": "demo-90-1",
+   "title": "Everyday words",
+   "intro": "Read each word, then pick its meaning.",
+   "cards": [
+    "demo-r-eakon",
+    "demo-r-hoteru",
+    "demo-r-pasokon",
+    "demo-r-masuku"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "demo-r-eakon",
+   "kind": "read",
+   "lang": "ja",
+   "text": "エアコン",
+   "meaning": "air conditioner",
+   "script": "katakana",
+   "romaji": "eakon",
+   "source": {
+    "dict": "JMdict"
+   }
+  },
+  {
+   "id": "demo-r-hoteru",
+   "kind": "read",
+   "lang": "ja",
+   "text": "ホテル",
+   "meaning": "hotel",
+   "script": "katakana",
+   "romaji": "hoteru",
+   "source": {
+    "dict": "JMdict"
+   }
+  },
+  {
+   "id": "demo-r-pasokon",
+   "kind": "read",
+   "lang": "ja",
+   "text": "パソコン",
+   "meaning": "personal computer",
+   "script": "katakana",
+   "romaji": "pasokon",
+   "source": {
+    "dict": "JMdict"
+   }
+  },
+  {
+   "id": "demo-r-masuku",
+   "kind": "read",
+   "lang": "ja",
+   "text": "マスク",
+   "meaning": "mask",
+   "script": "katakana",
+   "romaji": "masuku",
+   "source": {
+    "dict": "JMdict"
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+# Cloudflare Worker for the Knowledge app (the KnowledgeBot's Mini App). deploy.sh fills in the
+# KV id and the secrets (BOT_TOKEN, OWNER_ID); nothing secret here. Free plan friendly: no crons,
+# no Durable Objects; KV holds the bundles, progress and the queue.
+name = "knowledge-app"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+workers_dev = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[kv_namespaces]]
+binding = "KNOW"
+id = "KV_NAMESPACE_ID"
+
+# No request logs: initData and the vault never reach a log.
+[observability]
+enabled = false

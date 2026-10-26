@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1d2a4d">
+<title>Knowledge</title>
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-sc-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="app.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js" type="module"></script>
+</head>
+<body>
+<header class="top">
+  <span class="logo" aria-hidden="true"><span data-icon="owl"></span></span>
+  <div class="ident">
+    <h1>Knowledge</h1>
+    <p id="title" class="sub"></p>
+  </div>
+  <div class="chips-top" id="topstats" hidden></div>
+</header>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Sections" hidden>
+  <button type="button" role="tab" data-tab="learn" aria-controls="view">Learn</button>
+  <button type="button" role="tab" data-tab="library" aria-controls="view">Library</button>
+  <button type="button" role="tab" data-tab="me" aria-controls="view">You</button>
+</nav>
+<main id="view" role="tabpanel"><p class="status" id="status">Loading…</p></main>
+<footer id="foot" hidden>
+  <p id="asof"></p>
+  <p>Lessons are written by AI agents and checked against their sources; health and medicine lessons come from AI, not a doctor. Tap “Report a problem” on anything that looks wrong.</p>
+  <p>Dictionaries when used: JMdict (EDRDG licence), CC-CEDICT (CC BY-SA 4.0). Font: Barlow (OFL).</p>
+  <button type="button" id="refresh" class="textbtn">Refresh</button>
+</footer>
+<div id="stage" class="stage" hidden role="dialog" aria-modal="true" aria-label="Lesson"></div>
+<div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <div class="sheet-card">
+    <button type="button" class="sheet-x" id="sheet-x" aria-label="Close"></button>
+    <div id="sheet-body"></div>
+  </div>
+</div>
+<div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
+</body>
+</html>

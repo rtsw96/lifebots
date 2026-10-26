@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#5a1f3d">
+<title>Health</title>
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-sc-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="app.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js" type="module"></script>
+</head>
+<body>
+<header class="top">
+  <span class="logo" aria-hidden="true"><span data-icon="pulse"></span></span>
+  <div class="ident">
+    <h1>Health</h1>
+    <p id="title" class="sub"></p>
+  </div>
+  <span id="pending" class="pending" hidden></span>
+</header>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Sections" hidden>
+  <button type="button" role="tab" data-tab="today" aria-controls="view">Today</button>
+  <button type="button" role="tab" data-tab="train" aria-controls="view">Train</button>
+  <button type="button" role="tab" data-tab="food" aria-controls="view">Food</button>
+  <button type="button" role="tab" data-tab="progress" aria-controls="view">Progress</button>
+</nav>
+<main id="view" role="tabpanel"><p class="status" id="status">Loading…</p></main>
+<footer id="foot" hidden>
+  <p id="asof"></p>
+  <p>AI estimates and an AI coach, not a dietitian, doctor or physio. For pain or a medical question, stop and ask a professional.</p>
+  <p>Exercise photos and steps: free-exercise-db (public domain).</p>
+  <button type="button" id="refresh" class="textbtn">Refresh</button>
+</footer>
+<button type="button" id="fab" class="fab" hidden></button>
+<div id="dock" class="dock" hidden aria-live="polite"></div>
+<div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <div class="sheet-card">
+    <button type="button" class="sheet-x" id="sheet-x" aria-label="Close"></button>
+    <div id="sheet-body"></div>
+  </div>
+</div>
+<div id="tip" class="tip" hidden></div>
+</body>
+</html>

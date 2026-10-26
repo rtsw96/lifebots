@@ -1,0 +1,23 @@
+# Cloudflare Worker for the finance app (the finance bot's Mini App). deploy.sh
+# fills in the KV id and the secrets (BOT_TOKEN, OWNER_ID); nothing secret here.
+name = "finance-app"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+workers_dev = true
+
+# The page, scripts and styles. The Worker runs first so every response gets
+# the security headers.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+# The sealed snapshot (unreadable without a device key), device public keys,
+# and the queue of app changes for the bot.
+[[kv_namespaces]]
+binding = "FINANCE"
+id = "KV_NAMESPACE_ID"
+
+# No request logs.
+[observability]
+enabled = false

@@ -1,0 +1,9 @@
+{
+  "name": "health-app",
+  "private": true,
+  "type": "module",
+  "description": "Telegram Mini App for the health bot: food, training and body tracking (Cloudflare Worker). No runtime dependencies.",
+  "scripts": {
+    "test": "node --test test/*.mjs"
+  }
+}

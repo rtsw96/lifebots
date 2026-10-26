@@ -1,0 +1,87 @@
+{
+ "id": "demo-91",
+ "title": "First kanji words",
+ "level": "Beginner",
+ "goal": "Read three words with kanji.",
+ "strand": "words",
+ "strand_label": "Words",
+ "lessons": [
+  {
+   "id": "demo-91-1",
+   "title": "Three words",
+   "cards": [
+    "demo-w-0",
+    "demo-w-1",
+    "demo-w-2"
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "id": "demo-w-0",
+   "kind": "word",
+   "lang": "ja",
+   "text": "会議",
+   "reading": "かいぎ",
+   "meaning": [
+    "meeting"
+   ],
+   "pos": "noun",
+   "example": {
+    "text": "会議は三時からです。",
+    "reading": "かいぎはさんじからです。",
+    "meaning": "The meeting is from three o'clock.",
+    "source": {
+     "note": "written for this lesson"
+    }
+   },
+   "source": {
+    "dict": "JMdict"
+   }
+  },
+  {
+   "id": "demo-w-1",
+   "kind": "word",
+   "lang": "ja",
+   "text": "電話",
+   "reading": "でんわ",
+   "meaning": [
+    "telephone"
+   ],
+   "pos": "noun",
+   "example": {
+    "text": "電話をかけます。",
+    "reading": "でんわをかけます。",
+    "meaning": "I make a phone call.",
+    "source": {
+     "note": "written for this lesson"
+    }
+   },
+   "source": {
+    "dict": "JMdict"
+   }
+  },
+  {
+   "id": "demo-w-2",
+   "kind": "word",
+   "lang": "ja",
+   "text": "時間",
+   "reading": "じかん",
+   "meaning": [
+    "time"
+   ],
+   "pos": "noun",
+   "example": {
+    "text": "時間がありません。",
+    "reading": "じかんがありません。",
+    "meaning": "There is no time.",
+    "source": {
+     "note": "written for this lesson"
+    }
+   },
+   "source": {
+    "dict": "JMdict"
+   }
+  }
+ ]
+}

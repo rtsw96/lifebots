@@ -1,0 +1,184 @@
+{
+ "track": "ideas",
+ "intro": "A made-up placement test for the app's tests.",
+ "bands": [
+  {
+   "band": 0,
+   "label": "New to it",
+   "start": "ideas-01"
+  },
+  {
+   "band": 1,
+   "label": "Some",
+   "start": null
+  },
+  {
+   "band": 2,
+   "label": "More",
+   "start": null
+  },
+  {
+   "band": 3,
+   "label": "Expert",
+   "start": null
+  }
+ ],
+ "items": [
+  {
+   "band": 0,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 0.0: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 0,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 0.1: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 0,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 0.2: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 1,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 1.0: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 1,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 1.1: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 1,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 1.2: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 2,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 2.0: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 2,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 2.1: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 2,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 2.2: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 3,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 3.0: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 3,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 3.1: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  },
+  {
+   "band": 3,
+   "q": {
+    "type": "tf",
+    "prompt": "Example statement 3.2: the seasons come from Earth's tilt.",
+    "answer": true,
+    "explain": "This is a test fixture."
+   },
+   "source": {
+    "title": "NASA Space Place: What causes the seasons?",
+    "url": "https://spaceplace.nasa.gov/seasons/"
+   }
+  }
+ ]
+}

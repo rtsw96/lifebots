@@ -1,0 +1,21 @@
+{
+ "tracks": [
+  {
+   "id": "demo",
+   "name": "Example: katakana (test fixture)",
+   "short": "Demo",
+   "lang": "ja",
+   "color": "#e5484d",
+   "about": "A tiny made-up track for the app's tests. Not shipped as content."
+  },
+  {
+   "id": "ideas",
+   "name": "Example: ideas (test fixture)",
+   "short": "Ideas",
+   "lang": "en",
+   "color": "#3e8ef7",
+   "about": "A tiny made-up track for the app's tests. Not shipped as content.",
+   "plain": true
+  }
+ ]
+}

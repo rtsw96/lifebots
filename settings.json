@@ -1,0 +1,14 @@
+{
+  "owner_name": "Your first name",
+  "contact_email": "",
+  "timezone": "Asia/Singapore",
+  "home_currency": "SGD",
+  "holiday_calendar": "",
+  "bots": {
+    "health": false,
+    "money": false,
+    "secretary": false,
+    "knowledge": false,
+    "trips": false
+  }
+}

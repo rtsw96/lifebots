@@ -1,0 +1,21 @@
+{
+  "_comment": "One entry per bank or card CSV export, read with `finance txn import --csv <file> --format <name>`. A new bank is a config entry, not code: the money bot adds one the first time you send that bank's CSV (PDFs and screenshots need no entry; the bot reads them itself). Column names must match the export's header row exactly. Use amount_column for one signed column, or debit_column and credit_column (debit_is_positive: true when debits are written unsigned). Set skip_rows where the bank writes lines (often the account number) above the header: they are skipped and never stored. account_id is your alias for the account (spend_accounts.csv), never its number. currency defaults to your home currency. Check the first import against the file before trusting the numbers.",
+  "generic_signed": {
+    "account_id": "Generic",
+    "date_column": "date",
+    "date_formats": ["%Y-%m-%d", "%d/%m/%Y"],
+    "description_columns": ["description"],
+    "amount_column": "amount",
+    "skip_rows": 0
+  },
+  "_example_bank_debit_credit": {
+    "account_id": "Bank A",
+    "date_column": "Transaction Date",
+    "date_formats": ["%d %b %Y", "%d/%m/%Y"],
+    "description_columns": ["Description", "Reference"],
+    "debit_column": "Debit Amount",
+    "credit_column": "Credit Amount",
+    "debit_is_positive": true,
+    "skip_rows": 0
+  }
+}

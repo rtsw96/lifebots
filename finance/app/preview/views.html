@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Money: views preview</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/app.css">
+<script src="/preview/harness.js" type="module"></script>
+</head>
+<body>
+<!-- Same shell as public/index.html; harness.js renders the tabs from a JSON snapshot. -->
+<header class="top">
+  <span class="logo" aria-hidden="true"><span data-icon="mark" class="icon"></span></span>
+  <div class="ident">
+    <h1>Money</h1>
+    <p id="sub" class="sub"></p>
+  </div>
+  <span id="pending" class="pending" hidden></span>
+</header>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Sections">
+  <button type="button" role="tab" data-tab="overview" aria-controls="view">Overview</button>
+  <button type="button" role="tab" data-tab="day" aria-controls="view">Everyday</button>
+  <button type="button" role="tab" data-tab="flows" aria-controls="view">Flows</button>
+  <button type="button" role="tab" data-tab="recurring" aria-controls="view">Recurring</button>
+  <button type="button" role="tab" data-tab="spending" aria-controls="view">Spending</button>
+  <button type="button" role="tab" data-tab="holdings" aria-controls="view">Holdings</button>
+</nav>
+<main id="view" role="tabpanel"><p class="status" id="status">Loading…</p></main>
+<footer id="foot">
+  <p id="asof"></p>
+  <p>Preview: rendered from a JSON file, no encryption, no bot.</p>
+</footer>
+<div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <div class="sheet-card">
+    <button type="button" class="sheet-x" id="sheet-x" aria-label="Close"></button>
+    <div id="sheet-body"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+# Statements and screenshots are read from ~/.financebot/inbox and deleted; never keep one here.
+data/raw/
+*.pdf
+*.xlsx
+*.xls

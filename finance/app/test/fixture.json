@@ -1,0 +1,2455 @@
+{
+ "generated_at": "2026-06-30T09:00:00+00:00",
+ "as_of": "2026-06-30",
+ "base": "SGD",
+ "net_worth": 408670.0,
+ "securities": 381270.0,
+ "cash_total": 27400.0,
+ "margin_loans": -8000.0,
+ "history": [
+  [
+   "2026-06-02",
+   399670.0
+  ],
+  [
+   "2026-06-09",
+   402170.0
+  ],
+  [
+   "2026-06-16",
+   401470.0
+  ],
+  [
+   "2026-06-23",
+   406570.0
+  ],
+  [
+   "2026-06-30",
+   408670.0
+  ]
+ ],
+ "by_kind": {
+  "PROPERTY": 250000.0,
+  "LISTED": 73270.0,
+  "PRIVATE_FUND": 40000.0,
+  "CASH": 27400.0,
+  "PRIVATE_CREDIT": 10000.0,
+  "BOND": 5000.0,
+  "CRYPTO": 3000.0
+ },
+ "by_currency": {
+  "SGD": 300000.0,
+  "USD": 87000.0,
+  "JPY": 4000.0
+ },
+ "by_account": [
+  {
+   "id": "Property",
+   "name": "Property",
+   "value": 250000.0
+  },
+  {
+   "id": "Broker X",
+   "name": "Broker X (sample)",
+   "value": 50950.0
+  },
+  {
+   "id": "Fund Co",
+   "name": "Fund Co",
+   "value": 40000.0
+  },
+  {
+   "id": "Broker Y",
+   "name": "Broker Y",
+   "value": 29720.0
+  },
+  {
+   "id": "Bank A",
+   "name": "Bank A",
+   "value": 20000.0
+  },
+  {
+   "id": "Private credit",
+   "name": "Private credit",
+   "value": 10000.0
+  },
+  {
+   "id": "Depository",
+   "name": "Depository",
+   "value": 5000.0
+  },
+  {
+   "id": "Exchange Z",
+   "name": "Exchange Z",
+   "value": 3000.0
+  },
+  {
+   "id": "Old Wallet",
+   "name": "Old Wallet",
+   "value": 0.0
+  }
+ ],
+ "positions": [
+  {
+   "id": "HOME=UNLISTED",
+   "symbol": "HOME=UNLISTED",
+   "name": "Sample Flat",
+   "account": "Property",
+   "kind": "PROPERTY",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 25000.0,
+   "value": 250000.0,
+   "local": 250000.0,
+   "cost": 250000.0,
+   "pnl": 0.0,
+   "pnl_pct": 0.0,
+   "weight": 0.6117,
+   "mark_source": "manual"
+  },
+  {
+   "id": "FUND-1",
+   "symbol": "FUND-1",
+   "name": "Sample Fund",
+   "account": "Fund Co",
+   "kind": "PRIVATE_FUND",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 4000.0,
+   "value": 40000.0,
+   "local": 40000.0,
+   "cost": 33000.0,
+   "pnl": 7000.0,
+   "pnl_pct": 0.2121,
+   "weight": 0.0979,
+   "mark_source": "sample"
+  },
+  {
+   "id": "AAA",
+   "symbol": "AAA",
+   "name": "Alpha Widgets",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 2200.0,
+   "value": 22000.0,
+   "local": 22000.0,
+   "cost": 18000.0,
+   "pnl": 4000.0,
+   "pnl_pct": 0.2222,
+   "weight": 0.0538,
+   "mark_source": "sample"
+  },
+  {
+   "id": "BBB",
+   "symbol": "BBB",
+   "name": "Beta Rail",
+   "account": "Broker Y",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 1500.0,
+   "value": 15000.0,
+   "local": 15000.0,
+   "cost": 17500.0,
+   "pnl": -2500.0,
+   "pnl_pct": -0.1429,
+   "weight": 0.0367,
+   "mark_source": "sample"
+  },
+  {
+   "id": "CCC",
+   "symbol": "CCC",
+   "name": "Gamma Index ETF",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 1200.0,
+   "value": 12000.0,
+   "local": 12000.0,
+   "cost": 10000.0,
+   "pnl": 2000.0,
+   "pnl_pct": 0.2,
+   "weight": 0.0294,
+   "mark_source": "sample"
+  },
+  {
+   "id": "NOTE-1",
+   "symbol": "NOTE-1",
+   "name": "Sample note",
+   "account": "Private credit",
+   "kind": "PRIVATE_CREDIT",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 1000.0,
+   "value": 10000.0,
+   "local": 10000.0,
+   "cost": 10000.0,
+   "pnl": 0.0,
+   "pnl_pct": 0.0,
+   "weight": 0.0245,
+   "mark_source": "manual"
+  },
+  {
+   "id": "DDD",
+   "symbol": "DDD",
+   "name": "Delta Chips",
+   "account": "Broker Y",
+   "kind": "LISTED",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 900.0,
+   "value": 9000.0,
+   "local": 9000.0,
+   "cost": 11000.0,
+   "pnl": -2000.0,
+   "pnl_pct": -0.1818,
+   "weight": 0.022,
+   "mark_source": "sample"
+  },
+  {
+   "id": "EEE",
+   "symbol": "EEE",
+   "name": "Epsilon Foods",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 600.0,
+   "value": 6000.0,
+   "local": 6000.0,
+   "cost": 5000.0,
+   "pnl": 1000.0,
+   "pnl_pct": 0.2,
+   "weight": 0.0147,
+   "mark_source": "sample"
+  },
+  {
+   "id": "BOND-1",
+   "symbol": "BOND-1",
+   "name": "Sample 4% bond",
+   "account": "Depository",
+   "kind": "BOND",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 500.0,
+   "value": 5000.0,
+   "local": 5000.0,
+   "cost": 4800.0,
+   "pnl": 200.0,
+   "pnl_pct": 0.0417,
+   "weight": 0.0122,
+   "mark_source": "sample"
+  },
+  {
+   "id": "FFF",
+   "symbol": "FFF",
+   "name": "Phi Power",
+   "account": "Broker Y",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 400.0,
+   "value": 4000.0,
+   "local": 4000.0,
+   "cost": 4100.0,
+   "pnl": -100.0,
+   "pnl_pct": -0.0244,
+   "weight": 0.0098,
+   "mark_source": "sample"
+  },
+  {
+   "id": "COIN-1",
+   "symbol": "COIN-1",
+   "name": "Sample Coin",
+   "account": "Exchange Z",
+   "kind": "CRYPTO",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 300.0,
+   "value": 3000.0,
+   "local": 3000.0,
+   "cost": 3600.0,
+   "pnl": -600.0,
+   "pnl_pct": -0.1667,
+   "weight": 0.0073,
+   "mark_source": "sample"
+  },
+  {
+   "id": "GGG",
+   "symbol": "GGG",
+   "name": "Gee Logistics",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 250.0,
+   "value": 2500.0,
+   "local": 2500.0,
+   "cost": 2000.0,
+   "pnl": 500.0,
+   "pnl_pct": 0.25,
+   "weight": 0.0061,
+   "mark_source": "sample"
+  },
+  {
+   "id": "HHH",
+   "symbol": "HHH",
+   "name": "Eta Health",
+   "account": "Broker Y",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 120.0,
+   "value": 1200.0,
+   "local": 1200.0,
+   "cost": 1500.0,
+   "pnl": -300.0,
+   "pnl_pct": -0.2,
+   "weight": 0.0029,
+   "mark_source": "sample"
+  },
+  {
+   "id": "III",
+   "symbol": "III",
+   "name": "Iota Games",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 80.0,
+   "value": 800.0,
+   "local": 800.0,
+   "cost": 600.0,
+   "pnl": 200.0,
+   "pnl_pct": 0.3333,
+   "weight": 0.002,
+   "mark_source": "sample"
+  },
+  {
+   "id": "JJJ",
+   "symbol": "JJJ",
+   "name": "Jay Media",
+   "account": "Broker Y",
+   "kind": "LISTED",
+   "currency": "SGD",
+   "qty": 10.0,
+   "mark": 40.0,
+   "value": 400.0,
+   "local": 400.0,
+   "cost": 900.0,
+   "pnl": -500.0,
+   "pnl_pct": -0.5556,
+   "weight": 0.001,
+   "mark_source": "sample"
+  },
+  {
+   "id": "KKK",
+   "symbol": "KKK",
+   "name": "Kappa Retail",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 25.0,
+   "value": 250.0,
+   "local": 250.0,
+   "cost": 200.0,
+   "pnl": 50.0,
+   "pnl_pct": 0.25,
+   "weight": 0.0006,
+   "mark_source": "sample"
+  },
+  {
+   "id": "LLL",
+   "symbol": "LLL",
+   "name": "Lambda Labs",
+   "account": "Broker Y",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 12.0,
+   "value": 120.0,
+   "local": 120.0,
+   "cost": 100.0,
+   "pnl": 20.0,
+   "pnl_pct": 0.2,
+   "weight": 0.0003,
+   "mark_source": "sample"
+  },
+  {
+   "id": "ZERO",
+   "symbol": "ZERO",
+   "name": "No Price Fund",
+   "account": "Broker X",
+   "kind": "LISTED",
+   "currency": "USD",
+   "qty": 10.0,
+   "mark": 0.0,
+   "value": 0.0,
+   "local": 0.0,
+   "cost": 500.0,
+   "pnl": -500.0,
+   "pnl_pct": -1.0,
+   "weight": 0.0,
+   "mark_source": "none"
+  }
+ ],
+ "cash": [
+  {
+   "account": "Broker X",
+   "currency": "USD",
+   "amount": 12000.0,
+   "base": 15400.0,
+   "stated": true
+  },
+  {
+   "account": "Broker X",
+   "currency": "SGD",
+   "amount": -8000.0,
+   "base": -8000.0,
+   "stated": true
+  },
+  {
+   "account": "Bank A",
+   "currency": "SGD",
+   "amount": 20000.0,
+   "base": 20000.0,
+   "stated": false
+  }
+ ],
+ "alerts": [
+  {
+   "severity": "error",
+   "area": "cash",
+   "text": "Sample cash is negative with no statement behind it"
+  },
+  {
+   "severity": "warning",
+   "area": "marks",
+   "text": "No price for Broker X/ZERO: valued at zero"
+  }
+ ],
+ "spending": {
+  "months": [
+   {
+    "month": "2026-01",
+    "spend": 6087.44,
+    "income": 9000.0,
+    "savings_rate": 0.32,
+    "categories": {
+     "housing_mortgage": 1600.0,
+     "family": 1500.0,
+     "transport_ride": 599.8,
+     "travel": 500.86,
+     "tax": 400.0,
+     "health": 354.49,
+     "dining": 318.5,
+     "insurance": 300.0,
+     "subscriptions": 180.0,
+     "groceries": 169.73,
+     "fitness": 120.0,
+     "shopping_online": 102.3,
+     "donations": 100.0,
+     "entertainment": 89.88,
+     "utilities_telco": 45.0,
+     "reimbursement": -293.12
+    },
+    "merchants": [
+     [
+      "Hawker Centre",
+      210.5
+     ],
+     [
+      "Grocer One",
+      180.2
+     ],
+     [
+      "Ride Co",
+      95.0
+     ],
+     [
+      "Refund Shop",
+      -35.0
+     ]
+    ],
+    "lines": 60,
+    "unclassified_out": 0.0,
+    "unclassified_in": 0.0
+   },
+   {
+    "month": "2026-02",
+    "spend": 6687.64,
+    "income": 9000.0,
+    "savings_rate": 0.26,
+    "categories": {
+     "housing_mortgage": 1600.0,
+     "family": 1500.0,
+     "groceries": 625.14,
+     "travel": 543.58,
+     "health": 429.74,
+     "transport_ride": 407.73,
+     "tax": 400.0,
+     "insurance": 320.0,
+     "shopping_online": 310.17,
+     "entertainment": 297.8,
+     "dining": 217.12,
+     "subscriptions": 185.0,
+     "fitness": 120.0,
+     "donations": 100.0,
+     "utilities_telco": 45.0,
+     "reimbursement": -413.64
+    },
+    "merchants": [
+     [
+      "Hawker Centre",
+      210.5
+     ],
+     [
+      "Grocer One",
+      180.2
+     ],
+     [
+      "Ride Co",
+      95.0
+     ],
+     [
+      "Refund Shop",
+      -35.0
+     ]
+    ],
+    "lines": 61,
+    "unclassified_out": 0.0,
+    "unclassified_in": 0.0
+   },
+   {
+    "month": "2026-03",
+    "spend": 6083.37,
+    "income": 9000.0,
+    "savings_rate": 0.32,
+    "categories": {
+     "housing_mortgage": 1600.0,
+     "family": 1500.0,
+     "shopping_online": 615.04,
+     "health": 437.06,
+     "tax": 400.0,
+     "transport_ride": 371.78,
+     "insurance": 340.0,
+     "groceries": 284.75,
+     "subscriptions": 190.0,
+     "entertainment": 184.52,
+     "fitness": 120.0,
+     "donations": 100.0,
+     "travel": 59.4,
+     "utilities_telco": 45.0,
+     "dining": -35.0,
+     "reimbursement": -129.18
+    },
+    "merchants": [
+     [
+      "Hawker Centre",
+      210.5
+     ],
+     [
+      "Grocer One",
+      180.2
+     ],
+     [
+      "Ride Co",
+      95.0
+     ],
+     [
+      "Refund Shop",
+      -35.0
+     ]
+    ],
+    "lines": 62,
+    "unclassified_out": 0.0,
+    "unclassified_in": 0.0
+   },
+   {
+    "month": "2026-04",
+    "spend": 16990.16,
+    "income": 9000.0,
+    "savings_rate": -0.89,
+    "categories": {
+     "car_purchase": 9000.0,
+     "housing_mortgage": 1600.0,
+     "family": 1500.0,
+     "travel": 857.19,
+     "shopping_online": 778.91,
+     "entertainment": 676.21,
+     "health": 603.27,
+     "dining": 564.44,
+     "tax": 400.0,
+     "insurance": 360.0,
+     "groceries": 314.01,
+     "subscriptions": 195.0,
+     "transport_ride": 147.92,
+     "fitness": 120.0,
+     "donations": 100.0,
+     "utilities_telco": 45.0,
+     "reimbursement": -271.79
+    },
+    "merchants": [
+     [
+      "Hawker Centre",
+      210.5
+     ],
+     [
+      "Grocer One",
+      180.2
+     ],
+     [
+      "Ride Co",
+      95.0
+     ],
+     [
+      "Refund Shop",
+      -35.0
+     ]
+    ],
+    "lines": 63,
+    "unclassified_out": 0.0,
+    "unclassified_in": 0.0
+   },
+   {
+    "month": "2026-05",
+    "spend": 11783.19,
+    "income": 9000.0,
+    "savings_rate": -0.31,
+    "categories": {
+     "property_capex": 4200.0,
+     "housing_mortgage": 1600.0,
+     "family": 1500.0,
+     "transport_ride": 684.72,
+     "shopping_online": 676.7,
+     "health": 635.17,
+     "entertainment": 484.05,
+     "travel": 451.61,
+     "tax": 400.0,
+     "insurance": 380.0,
+     "dining": 308.19,
+     "subscriptions": 200.0,
+     "groceries": 163.94,
+     "fitness": 120.0,
+     "donations": 100.0,
+     "utilities_telco": 45.0,
+     "reimbursement": -166.19
+    },
+    "merchants": [
+     [
+      "Hawker Centre",
+      210.5
+     ],
+     [
+      "Grocer One",
+      180.2
+     ],
+     [
+      "Ride Co",
+      95.0
+     ],
+     [
+      "Refund Shop",
+      -35.0
+     ]
+    ],
+    "lines": 64,
+    "unclassified_out": 0.0,
+    "unclassified_in": 0.0
+   },
+   {
+    "month": "2026-06",
+    "spend": 6759.58,
+    "income": 9500.0,
+    "savings_rate": 0.29,
+    "categories": {
+     "housing_mortgage": 1600.0,
+     "family": 1500.0,
+     "travel": 887.31,
+     "health": 564.83,
+     "shopping_online": 455.08,
+     "groceries": 444.27,
+     "tax": 400.0,
+     "insurance": 400.0,
+     "transport_ride": 330.45,
+     "subscriptions": 205.0,
+     "dining": 127.86,
+     "fitness": 120.0,
+     "donations": 100.0,
+     "utilities_telco": 45.0,
+     "entertainment": 41.64,
+     "reimbursement": -461.86
+    },
+    "merchants": [
+     [
+      "Hawker Centre",
+      210.5
+     ],
+     [
+      "Grocer One",
+      180.2
+     ],
+     [
+      "Ride Co",
+      95.0
+     ],
+     [
+      "Refund Shop",
+      -35.0
+     ]
+    ],
+    "lines": 65,
+    "unclassified_out": 0.0,
+    "unclassified_in": 0.0
+   }
+  ],
+  "recent": [
+   {
+    "id": "00000000000000fe",
+    "date": "2026-06-22",
+    "account": "Card B",
+    "desc": "OVERSEAS SAMPLE",
+    "merchant": "Overseas Shop",
+    "amount": -42.0,
+    "currency": "USD",
+    "category": "",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "00000000000000ff",
+    "date": "2026-06-21",
+    "account": "Bank A",
+    "desc": "SALARY SAMPLE CO",
+    "merchant": "Sample Co",
+    "amount": 8000.0,
+    "currency": "SGD",
+    "category": "salary",
+    "kind": "INCOME"
+   },
+   {
+    "id": "9c9dbb4a2543d72f",
+    "date": "2026-06-17",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 7 REF 0007",
+    "merchant": "Sample Merchant 7",
+    "amount": -296.03,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "ca2d52e95e5cbaf5",
+    "date": "2026-06-16",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 6 REF 0006",
+    "merchant": "Sample Merchant 6",
+    "amount": -226.1,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "ef0676ce4d885cd0",
+    "date": "2026-06-15",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 5 REF 0005",
+    "merchant": "Sample Merchant 5",
+    "amount": -11.31,
+    "currency": "SGD",
+    "category": "family",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "9c12fa889da19405",
+    "date": "2026-06-14",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 4 REF 0004",
+    "merchant": "Sample Merchant 4",
+    "amount": -50.99,
+    "currency": "SGD",
+    "category": "subscriptions",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "07a2352c593a8163",
+    "date": "2026-06-13",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 3 REF 0003",
+    "merchant": "Sample Merchant 3",
+    "amount": -185.41,
+    "currency": "SGD",
+    "category": "subscriptions",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "bb07bd40f43809b6",
+    "date": "2026-06-12",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 2 REF 0002",
+    "merchant": "Sample Merchant 2",
+    "amount": -49.59,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "98825d76219239ab",
+    "date": "2026-06-11",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 1 REF 0001",
+    "merchant": "Sample Merchant 1",
+    "amount": -55.15,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "6ae6501a6a15ce95",
+    "date": "2026-06-10",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 0 REF 0000",
+    "merchant": "Sample Merchant 0",
+    "amount": -123.41,
+    "currency": "SGD",
+    "category": "entertainment",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "f251a4ed704ef379",
+    "date": "2026-05-17",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 7 REF 0007",
+    "merchant": "Sample Merchant 7",
+    "amount": -28.76,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "c71b8f63054b2372",
+    "date": "2026-05-16",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 6 REF 0006",
+    "merchant": "Sample Merchant 6",
+    "amount": -243.53,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "be15149f90305320",
+    "date": "2026-05-15",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 5 REF 0005",
+    "merchant": "Sample Merchant 5",
+    "amount": -81.46,
+    "currency": "SGD",
+    "category": "travel",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "12ee3fac702c9efe",
+    "date": "2026-05-14",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 4 REF 0004",
+    "merchant": "Sample Merchant 4",
+    "amount": -296.93,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "018c026b023283e7",
+    "date": "2026-05-13",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 3 REF 0003",
+    "merchant": "Sample Merchant 3",
+    "amount": -157.7,
+    "currency": "SGD",
+    "category": "shopping_online",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "892bf20170248473",
+    "date": "2026-05-12",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 2 REF 0002",
+    "merchant": "Sample Merchant 2",
+    "amount": -246.41,
+    "currency": "SGD",
+    "category": "shopping_online",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "231a2e2c66169157",
+    "date": "2026-05-11",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 1 REF 0001",
+    "merchant": "Sample Merchant 1",
+    "amount": -185.9,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "5109ba463d253ee6",
+    "date": "2026-05-10",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 0 REF 0000",
+    "merchant": "Sample Merchant 0",
+    "amount": -234.82,
+    "currency": "SGD",
+    "category": "family",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "fea02a7c6defa0c7",
+    "date": "2026-04-17",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 7 REF 0007",
+    "merchant": "Sample Merchant 7",
+    "amount": -146.72,
+    "currency": "SGD",
+    "category": "subscriptions",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "c5d1d5c8aea4abc5",
+    "date": "2026-04-16",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 6 REF 0006",
+    "merchant": "Sample Merchant 6",
+    "amount": -41.24,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "dfcd9da19a6e302d",
+    "date": "2026-04-15",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 5 REF 0005",
+    "merchant": "Sample Merchant 5",
+    "amount": -286.86,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "7041c75a01f7ca07",
+    "date": "2026-04-14",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 4 REF 0004",
+    "merchant": "Sample Merchant 4",
+    "amount": -186.15,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "ba75aed2722294f5",
+    "date": "2026-04-13",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 3 REF 0003",
+    "merchant": "Sample Merchant 3",
+    "amount": -186.05,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "f8073fd8c2402ac3",
+    "date": "2026-04-12",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 2 REF 0002",
+    "merchant": "Sample Merchant 2",
+    "amount": -49.62,
+    "currency": "SGD",
+    "category": "dining",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "ba48b6fde0ad7f87",
+    "date": "2026-04-11",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 1 REF 0001",
+    "merchant": "Sample Merchant 1",
+    "amount": -20.51,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "434c02f4ef6aae3a",
+    "date": "2026-04-10",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 0 REF 0000",
+    "merchant": "Sample Merchant 0",
+    "amount": -52.88,
+    "currency": "SGD",
+    "category": "shopping_online",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "e5dc9a1239cd1ad1",
+    "date": "2026-03-17",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 7 REF 0007",
+    "merchant": "Sample Merchant 7",
+    "amount": -162.7,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "0f21f8e06e826a59",
+    "date": "2026-03-16",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 6 REF 0006",
+    "merchant": "Sample Merchant 6",
+    "amount": -88.17,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "c9beb697b6ca5675",
+    "date": "2026-03-15",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 5 REF 0005",
+    "merchant": "Sample Merchant 5",
+    "amount": -8.56,
+    "currency": "SGD",
+    "category": "shopping_online",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "856a2c9a291ebc85",
+    "date": "2026-03-14",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 4 REF 0004",
+    "merchant": "Sample Merchant 4",
+    "amount": -56.98,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "77cc60cfb1750c5b",
+    "date": "2026-03-13",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 3 REF 0003",
+    "merchant": "Sample Merchant 3",
+    "amount": -287.53,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "7ab76c53c55fc89c",
+    "date": "2026-03-12",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 2 REF 0002",
+    "merchant": "Sample Merchant 2",
+    "amount": -213.39,
+    "currency": "SGD",
+    "category": "family",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "5b67cfcabbfd5393",
+    "date": "2026-03-11",
+    "account": "Card B",
+    "desc": "SAMPLE MERCHANT 1 REF 0001",
+    "merchant": "Sample Merchant 1",
+    "amount": -246.69,
+    "currency": "SGD",
+    "category": "travel",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "cbdff07a0a8e6c55",
+    "date": "2026-03-10",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 0 REF 0000",
+    "merchant": "Sample Merchant 0",
+    "amount": -123.49,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "4d6fcd8f66d7dc26",
+    "date": "2026-02-17",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 7 REF 0007",
+    "merchant": "Sample Merchant 7",
+    "amount": -297.96,
+    "currency": "SGD",
+    "category": "travel",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "b5b01f6b0e63ed0c",
+    "date": "2026-02-16",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 6 REF 0006",
+    "merchant": "Sample Merchant 6",
+    "amount": -22.9,
+    "currency": "SGD",
+    "category": "subscriptions",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "87937c2fe1e059f8",
+    "date": "2026-02-15",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 5 REF 0005",
+    "merchant": "Sample Merchant 5",
+    "amount": -283.68,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "2bfa9730fe24d079",
+    "date": "2026-02-14",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 4 REF 0004",
+    "merchant": "Sample Merchant 4",
+    "amount": -240.08,
+    "currency": "SGD",
+    "category": "subscriptions",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "b56db30d4d274f5f",
+    "date": "2026-02-13",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 3 REF 0003",
+    "merchant": "Sample Merchant 3",
+    "amount": -210.11,
+    "currency": "SGD",
+    "category": "health",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "6e3b50f8bfa1448c",
+    "date": "2026-02-12",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 2 REF 0002",
+    "merchant": "Sample Merchant 2",
+    "amount": -174.04,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "e76e467cd28b4e42",
+    "date": "2026-02-11",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 1 REF 0001",
+    "merchant": "Sample Merchant 1",
+    "amount": -16.57,
+    "currency": "SGD",
+    "category": "subscriptions",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "8618f1bb4de5ead4",
+    "date": "2026-02-10",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 0 REF 0000",
+    "merchant": "Sample Merchant 0",
+    "amount": -49.84,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "7b120e5850440f62",
+    "date": "2026-01-17",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 7 REF 0007",
+    "merchant": "Sample Merchant 7",
+    "amount": -22.58,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "200a8c8cdc9596a0",
+    "date": "2026-01-16",
+    "account": "Card C",
+    "desc": "SAMPLE MERCHANT 6 REF 0006",
+    "merchant": "Sample Merchant 6",
+    "amount": -33.74,
+    "currency": "SGD",
+    "category": "shopping_online",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "fde62a0845cbe0bb",
+    "date": "2026-01-15",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 5 REF 0005",
+    "merchant": "Sample Merchant 5",
+    "amount": -176.57,
+    "currency": "SGD",
+    "category": "transport_ride",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "e14a3bc01f685844",
+    "date": "2026-01-14",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 4 REF 0004",
+    "merchant": "Sample Merchant 4",
+    "amount": -96.0,
+    "currency": "SGD",
+    "category": "groceries",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "0634cc1b38731ac1",
+    "date": "2026-01-13",
+    "account": "Card D",
+    "desc": "SAMPLE MERCHANT 3 REF 0003",
+    "merchant": "Sample Merchant 3",
+    "amount": -47.56,
+    "currency": "SGD",
+    "category": "travel",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "19562b4b5438d7fc",
+    "date": "2026-01-12",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 2 REF 0002",
+    "merchant": "Sample Merchant 2",
+    "amount": -258.25,
+    "currency": "SGD",
+    "category": "dining",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "7a9cd7092b880460",
+    "date": "2026-01-11",
+    "account": "Bank A",
+    "desc": "SAMPLE MERCHANT 1 REF 0001",
+    "merchant": "Sample Merchant 1",
+    "amount": -293.0,
+    "currency": "SGD",
+    "category": "entertainment",
+    "kind": "EXPENSE"
+   },
+   {
+    "id": "fd6bd483bfc7afa2",
+    "date": "2026-01-10",
+    "account": "Wallet E",
+    "desc": "SAMPLE MERCHANT 0 REF 0000",
+    "merchant": "Sample Merchant 0",
+    "amount": -284.57,
+    "currency": "SGD",
+    "category": "shopping_online",
+    "kind": "EXPENSE"
+   }
+  ],
+  "coverage": 0.97,
+  "first": "2026-01-02",
+  "last": "2026-06-22"
+ },
+ "flows": [
+  {
+   "month": "2026-01",
+   "inflow": 9296.32,
+   "links": [
+    [
+     "acct:Bank A",
+     "cat:family",
+     1500.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:housing_mortgage",
+     1600.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:insurance",
+     300.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:tax",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:utilities_telco",
+     45.0
+    ],
+    [
+     "acct:Card B",
+     "cat:donations",
+     100.0
+    ],
+    [
+     "acct:Card B",
+     "cat:entertainment",
+     89.88
+    ],
+    [
+     "acct:Card B",
+     "cat:groceries",
+     169.73
+    ],
+    [
+     "acct:Card B",
+     "cat:health",
+     354.49
+    ],
+    [
+     "acct:Card B",
+     "cat:shopping_online",
+     102.3
+    ],
+    [
+     "acct:Card B",
+     "cat:subscriptions",
+     180.0
+    ],
+    [
+     "acct:Card C",
+     "cat:transport_ride",
+     599.8
+    ],
+    [
+     "acct:Wallet E",
+     "cat:dining",
+     318.5
+    ],
+    [
+     "acct:Wallet E",
+     "cat:fitness",
+     120.0
+    ],
+    [
+     "acct:Wallet E",
+     "cat:travel",
+     500.86
+    ],
+    [
+     "hub:in",
+     "acct:Bank A",
+     3845.0
+    ],
+    [
+     "hub:in",
+     "acct:Card B",
+     996.4
+    ],
+    [
+     "hub:in",
+     "acct:Card C",
+     599.8
+    ],
+    [
+     "hub:in",
+     "acct:Wallet E",
+     939.36
+    ],
+    [
+     "hub:in",
+     "out:invested",
+     1500.0
+    ],
+    [
+     "hub:in",
+     "out:saved",
+     1415.76
+    ],
+    [
+     "src:Interest and dividends",
+     "hub:in",
+     3.2
+    ],
+    [
+     "src:Refunds and claims",
+     "hub:in",
+     293.12
+    ],
+    [
+     "src:Rent",
+     "hub:in",
+     1000.0
+    ],
+    [
+     "src:Salary",
+     "hub:in",
+     8000.0
+    ]
+   ]
+  },
+  {
+   "month": "2026-02",
+   "inflow": 9416.84,
+   "links": [
+    [
+     "acct:Bank A",
+     "cat:family",
+     1500.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:housing_mortgage",
+     1600.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:insurance",
+     320.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:tax",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:utilities_telco",
+     45.0
+    ],
+    [
+     "acct:Card B",
+     "cat:health",
+     429.74
+    ],
+    [
+     "acct:Card B",
+     "cat:subscriptions",
+     185.0
+    ],
+    [
+     "acct:Card B",
+     "cat:travel",
+     543.58
+    ],
+    [
+     "acct:Card C",
+     "cat:donations",
+     100.0
+    ],
+    [
+     "acct:Card D",
+     "cat:fitness",
+     120.0
+    ],
+    [
+     "acct:Card D",
+     "cat:groceries",
+     625.14
+    ],
+    [
+     "acct:Card D",
+     "cat:shopping_online",
+     310.17
+    ],
+    [
+     "acct:Wallet E",
+     "cat:dining",
+     217.12
+    ],
+    [
+     "acct:Wallet E",
+     "cat:entertainment",
+     297.8
+    ],
+    [
+     "acct:Wallet E",
+     "cat:transport_ride",
+     407.73
+    ],
+    [
+     "hub:in",
+     "acct:Bank A",
+     3865.0
+    ],
+    [
+     "hub:in",
+     "acct:Card B",
+     1158.32
+    ],
+    [
+     "hub:in",
+     "acct:Card C",
+     100.0
+    ],
+    [
+     "hub:in",
+     "acct:Card D",
+     1055.31
+    ],
+    [
+     "hub:in",
+     "acct:Wallet E",
+     922.65
+    ],
+    [
+     "hub:in",
+     "out:saved",
+     2315.56
+    ],
+    [
+     "src:Interest and dividends",
+     "hub:in",
+     3.2
+    ],
+    [
+     "src:Refunds and claims",
+     "hub:in",
+     413.64
+    ],
+    [
+     "src:Rent",
+     "hub:in",
+     1000.0
+    ],
+    [
+     "src:Salary",
+     "hub:in",
+     8000.0
+    ]
+   ]
+  },
+  {
+   "month": "2026-03",
+   "inflow": 9167.38,
+   "links": [
+    [
+     "acct:Bank A",
+     "cat:family",
+     1500.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:housing_mortgage",
+     1600.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:insurance",
+     340.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:tax",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:utilities_telco",
+     45.0
+    ],
+    [
+     "acct:Card B",
+     "cat:donations",
+     100.0
+    ],
+    [
+     "acct:Card B",
+     "cat:entertainment",
+     184.52
+    ],
+    [
+     "acct:Card C",
+     "cat:groceries",
+     284.75
+    ],
+    [
+     "acct:Card C",
+     "cat:subscriptions",
+     190.0
+    ],
+    [
+     "acct:Card C",
+     "cat:transport_ride",
+     371.78
+    ],
+    [
+     "acct:Card D",
+     "cat:fitness",
+     120.0
+    ],
+    [
+     "acct:Wallet E",
+     "cat:health",
+     437.06
+    ],
+    [
+     "acct:Wallet E",
+     "cat:shopping_online",
+     615.04
+    ],
+    [
+     "acct:Wallet E",
+     "cat:travel",
+     59.4
+    ],
+    [
+     "hub:in",
+     "acct:Bank A",
+     3885.0
+    ],
+    [
+     "hub:in",
+     "acct:Card B",
+     284.52
+    ],
+    [
+     "hub:in",
+     "acct:Card C",
+     846.53
+    ],
+    [
+     "hub:in",
+     "acct:Card D",
+     120.0
+    ],
+    [
+     "hub:in",
+     "acct:Wallet E",
+     1111.5
+    ],
+    [
+     "hub:in",
+     "out:invested",
+     1500.0
+    ],
+    [
+     "hub:in",
+     "out:saved",
+     1419.83
+    ],
+    [
+     "src:Interest and dividends",
+     "hub:in",
+     3.2
+    ],
+    [
+     "src:Refunds and claims",
+     "hub:in",
+     164.18
+    ],
+    [
+     "src:Rent",
+     "hub:in",
+     1000.0
+    ],
+    [
+     "src:Salary",
+     "hub:in",
+     8000.0
+    ]
+   ]
+  },
+  {
+   "month": "2026-04",
+   "inflow": 17261.95,
+   "links": [
+    [
+     "acct:Bank A",
+     "cat:car_purchase",
+     9000.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:family",
+     1500.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:housing_mortgage",
+     1600.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:insurance",
+     360.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:tax",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:utilities_telco",
+     45.0
+    ],
+    [
+     "acct:Card B",
+     "cat:entertainment",
+     676.21
+    ],
+    [
+     "acct:Card B",
+     "cat:groceries",
+     314.01
+    ],
+    [
+     "acct:Card B",
+     "cat:travel",
+     857.19
+    ],
+    [
+     "acct:Card C",
+     "cat:health",
+     603.27
+    ],
+    [
+     "acct:Wallet E",
+     "cat:dining",
+     564.44
+    ],
+    [
+     "acct:Wallet E",
+     "cat:donations",
+     100.0
+    ],
+    [
+     "acct:Wallet E",
+     "cat:fitness",
+     120.0
+    ],
+    [
+     "acct:Wallet E",
+     "cat:shopping_online",
+     778.91
+    ],
+    [
+     "acct:Wallet E",
+     "cat:subscriptions",
+     195.0
+    ],
+    [
+     "acct:Wallet E",
+     "cat:transport_ride",
+     147.92
+    ],
+    [
+     "hub:in",
+     "acct:Bank A",
+     12905.0
+    ],
+    [
+     "hub:in",
+     "acct:Card B",
+     1847.41
+    ],
+    [
+     "hub:in",
+     "acct:Card C",
+     603.27
+    ],
+    [
+     "hub:in",
+     "acct:Wallet E",
+     1906.27
+    ],
+    [
+     "src:From savings",
+     "hub:in",
+     7986.96
+    ],
+    [
+     "src:Interest and dividends",
+     "hub:in",
+     3.2
+    ],
+    [
+     "src:Refunds and claims",
+     "hub:in",
+     271.79
+    ],
+    [
+     "src:Rent",
+     "hub:in",
+     1000.0
+    ],
+    [
+     "src:Salary",
+     "hub:in",
+     8000.0
+    ]
+   ]
+  },
+  {
+   "month": "2026-05",
+   "inflow": 13449.38,
+   "links": [
+    [
+     "acct:Bank A",
+     "cat:family",
+     1500.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:housing_mortgage",
+     1600.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:insurance",
+     380.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:property_capex",
+     4200.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:tax",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:utilities_telco",
+     45.0
+    ],
+    [
+     "acct:Card B",
+     "cat:fitness",
+     120.0
+    ],
+    [
+     "acct:Card B",
+     "cat:groceries",
+     163.94
+    ],
+    [
+     "acct:Card C",
+     "cat:entertainment",
+     484.05
+    ],
+    [
+     "acct:Card C",
+     "cat:subscriptions",
+     200.0
+    ],
+    [
+     "acct:Card C",
+     "cat:travel",
+     451.61
+    ],
+    [
+     "acct:Card D",
+     "cat:dining",
+     308.19
+    ],
+    [
+     "acct:Card D",
+     "cat:donations",
+     100.0
+    ],
+    [
+     "acct:Card D",
+     "cat:health",
+     635.17
+    ],
+    [
+     "acct:Card D",
+     "cat:shopping_online",
+     676.7
+    ],
+    [
+     "acct:Card D",
+     "cat:transport_ride",
+     684.72
+    ],
+    [
+     "hub:in",
+     "acct:Bank A",
+     8125.0
+    ],
+    [
+     "hub:in",
+     "acct:Card B",
+     283.94
+    ],
+    [
+     "hub:in",
+     "acct:Card C",
+     1135.66
+    ],
+    [
+     "hub:in",
+     "acct:Card D",
+     2404.78
+    ],
+    [
+     "hub:in",
+     "out:invested",
+     1500.0
+    ],
+    [
+     "src:From savings",
+     "hub:in",
+     4279.99
+    ],
+    [
+     "src:Interest and dividends",
+     "hub:in",
+     3.2
+    ],
+    [
+     "src:Refunds and claims",
+     "hub:in",
+     166.19
+    ],
+    [
+     "src:Rent",
+     "hub:in",
+     1000.0
+    ],
+    [
+     "src:Salary",
+     "hub:in",
+     8000.0
+    ]
+   ]
+  },
+  {
+   "month": "2026-06",
+   "inflow": 9965.06,
+   "links": [
+    [
+     "acct:Bank A",
+     "cat:family",
+     1500.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:groceries",
+     444.27
+    ],
+    [
+     "acct:Bank A",
+     "cat:housing_mortgage",
+     1600.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:insurance",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:shopping_online",
+     455.08
+    ],
+    [
+     "acct:Bank A",
+     "cat:tax",
+     400.0
+    ],
+    [
+     "acct:Bank A",
+     "cat:utilities_telco",
+     45.0
+    ],
+    [
+     "acct:Card B",
+     "cat:entertainment",
+     41.64
+    ],
+    [
+     "acct:Card B",
+     "cat:fitness",
+     120.0
+    ],
+    [
+     "acct:Card B",
+     "cat:subscriptions",
+     205.0
+    ],
+    [
+     "acct:Card D",
+     "cat:donations",
+     100.0
+    ],
+    [
+     "acct:Card D",
+     "cat:health",
+     564.83
+    ],
+    [
+     "acct:Wallet E",
+     "cat:dining",
+     127.86
+    ],
+    [
+     "acct:Wallet E",
+     "cat:transport_ride",
+     330.45
+    ],
+    [
+     "acct:Wallet E",
+     "cat:travel",
+     887.31
+    ],
+    [
+     "hub:in",
+     "acct:Bank A",
+     4844.35
+    ],
+    [
+     "hub:in",
+     "acct:Card B",
+     366.64
+    ],
+    [
+     "hub:in",
+     "acct:Card D",
+     664.83
+    ],
+    [
+     "hub:in",
+     "acct:Wallet E",
+     1345.62
+    ],
+    [
+     "hub:in",
+     "out:saved",
+     2743.62
+    ],
+    [
+     "src:Interest and dividends",
+     "hub:in",
+     3.2
+    ],
+    [
+     "src:Refunds and claims",
+     "hub:in",
+     461.86
+    ],
+    [
+     "src:Rent",
+     "hub:in",
+     1500.0
+    ],
+    [
+     "src:Salary",
+     "hub:in",
+     8000.0
+    ]
+   ]
+  }
+ ],
+ "category_groups": {
+  "committed": [
+   "tax",
+   "family",
+   "housing_mortgage",
+   "insurance",
+   "utilities_telco"
+  ],
+  "chosen": [
+   "donations",
+   "subscriptions",
+   "fitness"
+  ],
+  "one_off": [
+   "car_purchase",
+   "property_capex",
+   "property_costs"
+  ]
+ },
+ "accounts_through": {
+  "Bank A": "2026-06-20",
+  "Card B": "2026-06-12",
+  "Card C": "2026-05-28",
+  "Card D": "2026-06-14",
+  "Wallet E": "2026-06-18"
+ },
+ "spend_accounts": [
+  "Bank A",
+  "Card B",
+  "Card C",
+  "Card D",
+  "Wallet E"
+ ],
+ "categories": [
+  "car_purchase",
+  "dining",
+  "donations",
+  "entertainment",
+  "family",
+  "fitness",
+  "groceries",
+  "health",
+  "housing_mortgage",
+  "insurance",
+  "property_capex",
+  "refund",
+  "reimbursement",
+  "salary",
+  "shopping_online",
+  "subscriptions",
+  "tax",
+  "transfer",
+  "transport_ride",
+  "travel",
+  "utilities_telco"
+ ],
+ "recurring": {
+  "as_of": "2026-06-30",
+  "items": [
+   {
+    "name": "Term life",
+    "section": "insurance",
+    "category": "insurance",
+    "cadence": "annual",
+    "amount": 1200.0,
+    "monthly": 100.0,
+    "yearly": 1200.0,
+    "last": "2025-09-20",
+    "next": "2026-09-20",
+    "count": 1,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements + policy list",
+    "account": "Bank A",
+    "history": [
+     [
+      "2025-09-20",
+      1200.0
+     ]
+    ],
+    "policies": [
+     "Term Life (Insurer A)",
+     "Critical illness rider (Insurer A)"
+    ],
+    "note": "Policy list: SGD 1,200.00 a year"
+   },
+   {
+    "name": "Shield plan",
+    "section": "insurance",
+    "category": "",
+    "cadence": "annual",
+    "amount": 400.0,
+    "monthly": 33.33,
+    "yearly": 399.96,
+    "last": null,
+    "next": "2026-08-19",
+    "count": 0,
+    "status": "not seen yet",
+    "paid_from": "Savings scheme",
+    "source": "policy list",
+    "account": "Bank A",
+    "history": [],
+    "policies": [
+     "Shield Plan (Insurer B)"
+    ],
+    "note": "Not in the statements on file yet; premium and date from your policy list."
+   },
+   {
+    "name": "Savings plan",
+    "section": "insurance",
+    "category": "insurance",
+    "cadence": "monthly",
+    "amount": 50.0,
+    "monthly": 50.0,
+    "yearly": 600.0,
+    "last": "2026-06-05",
+    "next": "2026-07-05",
+    "count": 6,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Bank A",
+    "history": [
+     [
+      "2026-01-05",
+      50
+     ],
+     [
+      "2026-02-05",
+      50
+     ],
+     [
+      "2026-03-05",
+      50
+     ],
+     [
+      "2026-04-05",
+      50
+     ],
+     [
+      "2026-05-05",
+      50
+     ],
+     [
+      "2026-06-05",
+      50
+     ]
+    ]
+   },
+   {
+    "name": "Music streaming",
+    "section": "subscriptions",
+    "category": "subscriptions",
+    "cadence": "monthly",
+    "amount": 12.98,
+    "monthly": 12.98,
+    "yearly": 155.76,
+    "last": "2026-06-07",
+    "next": "2026-07-07",
+    "count": 6,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Card B",
+    "history": [
+     [
+      "2026-06-07",
+      12.98
+     ]
+    ]
+   },
+   {
+    "name": "News site",
+    "section": "subscriptions",
+    "category": "subscriptions",
+    "cadence": "annual",
+    "amount": 240.0,
+    "monthly": 20.0,
+    "yearly": 240.0,
+    "last": "2026-03-01",
+    "next": "2027-03-01",
+    "count": 1,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Card B",
+    "history": [
+     [
+      "2026-03-01",
+      240.0
+     ]
+    ]
+   },
+   {
+    "name": "Parents allowance",
+    "section": "regular",
+    "category": "family",
+    "cadence": "monthly",
+    "amount": 1000.0,
+    "monthly": 1000.0,
+    "yearly": 12000.0,
+    "last": "2026-06-30",
+    "next": "2026-07-30",
+    "count": 6,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Bank A",
+    "history": [
+     [
+      "2026-06-30",
+      1000.0
+     ]
+    ]
+   },
+   {
+    "name": "Parents (other transfers)",
+    "section": "regular",
+    "category": "family",
+    "cadence": "irregular",
+    "amount": 300.0,
+    "monthly": 100.0,
+    "yearly": 1200.0,
+    "last": "2026-04-10",
+    "next": null,
+    "count": 2,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Bank A",
+    "history": [
+     [
+      "2026-04-10",
+      300.0
+     ]
+    ],
+    "note": "Not a standing order: one-off transfers, averaged over all the months on file."
+   },
+   {
+    "name": "Home loan (cash part)",
+    "section": "mortgage",
+    "category": "housing_mortgage",
+    "cadence": "monthly",
+    "amount": 1500.0,
+    "monthly": 1500.0,
+    "yearly": 18000.0,
+    "last": "2026-06-01",
+    "next": "2026-07-01",
+    "count": 6,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Bank A",
+    "history": [
+     [
+      "2026-06-01",
+      1500.0
+     ]
+    ]
+   },
+   {
+    "name": "Home loan (other part)",
+    "section": "mortgage",
+    "category": "",
+    "cadence": "monthly",
+    "amount": 1500.0,
+    "monthly": 1500.0,
+    "yearly": 18000.0,
+    "last": null,
+    "next": "2026-07-01",
+    "count": 0,
+    "status": "active",
+    "paid_from": "Savings scheme",
+    "source": "you told us",
+    "account": "Bank A",
+    "history": [],
+    "note": "Paid from a savings scheme, so it never shows on a bank statement."
+   },
+   {
+    "name": "Income tax (GIRO)",
+    "section": "taxes",
+    "category": "tax",
+    "cadence": "monthly",
+    "amount": 800.0,
+    "monthly": 800.0,
+    "yearly": 9600.0,
+    "last": "2026-06-06",
+    "next": "2026-07-06",
+    "count": 3,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Bank A",
+    "history": [
+     [
+      "2026-06-06",
+      800.0
+     ]
+    ]
+   },
+   {
+    "name": "Property tax",
+    "section": "taxes",
+    "category": "tax",
+    "cadence": "annual",
+    "amount": 1100.0,
+    "monthly": 91.67,
+    "yearly": 1100.04,
+    "last": "2026-01-31",
+    "next": "2027-01-31",
+    "count": 1,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Bank A",
+    "history": [
+     [
+      "2026-01-31",
+      1100.0
+     ]
+    ]
+   },
+   {
+    "name": "Gym",
+    "section": "others",
+    "category": "fitness",
+    "cadence": "fortnightly",
+    "amount": 98.0,
+    "monthly": 212.33,
+    "yearly": 2547.96,
+    "last": "2026-06-24",
+    "next": "2026-07-08",
+    "count": 12,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Card B",
+    "history": [
+     [
+      "2026-06-24",
+      98.0
+     ]
+    ]
+   },
+   {
+    "name": "Phone plan",
+    "section": "others",
+    "category": "utilities_telco",
+    "cadence": "monthly",
+    "amount": 30.0,
+    "monthly": 30.0,
+    "yearly": 360.0,
+    "last": "2026-06-20",
+    "next": "2026-07-20",
+    "count": 6,
+    "status": "active",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Card B",
+    "history": [
+     [
+      "2026-06-20",
+      30.0
+     ]
+    ]
+   },
+   {
+    "name": "Old app",
+    "section": "subscriptions",
+    "category": "subscriptions",
+    "cadence": "monthly",
+    "amount": 9.98,
+    "monthly": 9.98,
+    "yearly": 119.76,
+    "last": "2026-02-03",
+    "next": null,
+    "count": 3,
+    "status": "stopped?",
+    "paid_from": "cash",
+    "source": "statements",
+    "account": "Card B",
+    "history": [
+     [
+      "2026-02-03",
+      9.98
+     ]
+    ]
+   }
+  ],
+  "sections": {
+   "insurance": 183.33,
+   "subscriptions": 32.98,
+   "regular": 1100.0,
+   "mortgage": 3000.0,
+   "taxes": 891.67,
+   "others": 242.33
+  },
+  "monthly_cash": 3916.98,
+  "monthly_all": 5450.31
+ },
+ "tz": "Asia/Singapore"
+}

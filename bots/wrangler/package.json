@@ -1,0 +1,8 @@
+{
+  "name": "lifebots-wrangler",
+  "private": true,
+  "description": "The one pinned wrangler every deploy.sh runs (through bots/wrangler.sh). Bump the version on purpose, commit the new package-lock.json, never use npx.",
+  "dependencies": {
+    "wrangler": "4.149.0"
+  }
+}

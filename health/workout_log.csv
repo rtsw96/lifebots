@@ -1,0 +1,1 @@
+set_id,workout_id,date,time,block,exercise_id,set_no,weight_kg,reps,seconds,distance_km,rpe,source,ref,logged_at,notes,done_at,seq,rest_s,rest_plan_s,rir,hr_avg,hr_max

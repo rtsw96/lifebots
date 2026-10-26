@@ -1,0 +1,28 @@
+{
+  "_about": "The training plan the app's planner and the bot's coaching use. strength_days_per_week, cardio_per_week and the daily sleep and step bands come from health/settings.json (the onboarding sets them); the rest is a sensible general plan you can ask Claude to change. gym, injuries and phase_note are free text the bot reads when it coaches.",
+  "gym": "a commercial gym: dumbbells, barbells and racks, cables, plate and pin machines",
+  "strength_days_per_week": 3,
+  "cardio_per_week": 1,
+  "session_minutes": 60,
+  "cardio": "a run, ride or row on separate days",
+  "injuries": [],
+  "phase": "general",
+  "phase_note": "Build strength steadily: add reps, then weight. Stop 1-3 reps short of failure on compounds.",
+  "weekly_sets_per_muscle": [10, 16],
+  "rep_ranges": {
+    "compound": [6, 10],
+    "isolation": [10, 15],
+    "core": [10, 20]
+  },
+  "increments_kg": {
+    "dumbbell": 2,
+    "barbell": 2.5,
+    "cable": 5,
+    "machine": 5
+  },
+  "logging": "Tap in the health app; the bot also takes text, voice and gym-app screenshots",
+  "daily_targets": {
+    "sleep_h": [7, 9],
+    "steps": [8000, 12000]
+  }
+}
